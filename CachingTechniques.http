@@ -1,0 +1,10 @@
+@CachingTechniques_HostAddress = http://localhost:5222
+
+GET {{CachingTechniques_HostAddress}}/Cache/GetInMemoryCacheData
+Accept: application/json
+
+
+GET {{CachingTechniques_HostAddress}}/Cache/GetDistributedCacheData
+Accept: application/json
+
+###
